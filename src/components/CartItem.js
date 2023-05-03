@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaTrash } from 'react-icons/fa'
-import { useCartContext } from '../context/cart_context'
+import { useCartContext } from '../context/CartContext'
 import FormatPrice from '../Helpers/FormatPrice'
 import CartAmountToggle from './CartAmountToggle'
 

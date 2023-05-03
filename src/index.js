@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
-import { AppProvider } from "./context/productcontex";
-import { FilterContextProvider } from "./context/filter_context";
-import { CartProvider } from "./context/cart_context";
+import { AppProvider } from "./context/ProductContext";
+import { FilterContextProvider } from "./context/FilterContext";
+import { CartProvider } from "./context/CartContext";
 import { Auth0Provider } from "@auth0/auth0-react";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

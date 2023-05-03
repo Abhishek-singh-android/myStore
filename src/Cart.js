@@ -2,7 +2,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import CartItem from "./components/CartItem";
-import { useCartContext } from "./context/cart_context";
+import { useCartContext } from "./context/CartContext";
 import FormatPrice from "./Helpers/FormatPrice";
 import { Button } from "./style/Button";
 
